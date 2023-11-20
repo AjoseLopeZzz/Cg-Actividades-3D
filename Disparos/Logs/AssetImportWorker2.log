@@ -1,0 +1,811 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.10f1 (ff3792e53c62) revision 16725906'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'es' Physical Memory: 7829 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/josel/OneDrive/Escritorio/Mis Juegos Unity 3D/Disparos
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+61882
+Successfully changed project path to: C:/Users/josel/OneDrive/Escritorio/Mis Juegos Unity 3D/Disparos
+C:/Users/josel/OneDrive/Escritorio/Mis Juegos Unity 3D/Disparos
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [28724] Host "[IP] 11.11.39.95 [Port] 0 [Flags] 2 [Guid] 2277339289 [EditorId] 2277339289 [Version] 1048832 [Id] WindowsEditor(7,Jose_Luis) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [28724] Host "[IP] 11.11.39.95 [Port] 0 [Flags] 2 [Guid] 2277339289 [EditorId] 2277339289 [Version] 1048832 [Id] WindowsEditor(7,Jose_Luis) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 29.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.10f1 (ff3792e53c62)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/josel/OneDrive/Escritorio/Mis Juegos Unity 3D/Disparos/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f9d)
+    Vendor:   NVIDIA
+    VRAM:     3950 MB
+    Driver:   31.0.15.3742
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56404
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.015715 seconds.
+- Loaded All Assemblies, in  0.781 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.439 seconds
+Domain Reload Profiling: 1216ms
+	BeginReloadAssembly (284ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (62ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (113ms)
+	LoadAllAssembliesAndSetupDomain (301ms)
+		LoadAssemblies (281ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (295ms)
+			TypeCache.Refresh (292ms)
+				TypeCache.ScanAssembly (262ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (440ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (324ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (223ms)
+			ProcessInitializeOnLoadMethodAttributes (63ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.379 seconds
+Refreshing native plugins compatible for Editor in 16.17 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.277 seconds
+Domain Reload Profiling: 2642ms
+	BeginReloadAssembly (313ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (63ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (81ms)
+	LoadAllAssembliesAndSetupDomain (893ms)
+		LoadAssemblies (730ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (359ms)
+			TypeCache.Refresh (318ms)
+				TypeCache.ScanAssembly (287ms)
+			ScanForSourceGeneratedMonoScriptInfo (29ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1279ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (995ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (106ms)
+			ProcessInitializeOnLoadAttributes (793ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (24ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 14.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3104 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (56.3 KB). Loaded Objects now: 3566.
+Memory consumption went from 117.3 MB to 117.2 MB.
+Total: 4.732100 ms (FindLiveObjects: 0.424300 ms CreateObjectMapping: 0.270200 ms MarkObjects: 3.843200 ms  DeleteObjects: 0.192300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/CFXR_UpgradeCheck.cs: ecbc382cf7f886ae36ac82906454b189 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 263673.648394 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr water drop blur anim hdr ab.mat
+  artifactKey: Guid(9ff4585d5d3df2945b6b02ee4ff389bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr water drop blur anim hdr ab.mat using Guid(9ff4585d5d3df2945b6b02ee4ff389bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8e874cadb33bb6023c889194fb721476') in 0.289978 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ww smoke bright.png
+  artifactKey: Guid(61ba904dd6bbf9e44be37f634459f9b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ww smoke bright.png using Guid(61ba904dd6bbf9e44be37f634459f9b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ae24473a7d8e9474ba988db3ef5517c5') in 0.070316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr mesh star6.fbx
+  artifactKey: Guid(04eb6fb558fc96e408adfdc22a919448) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr mesh star6.fbx using Guid(04eb6fb558fc96e408adfdc22a919448) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e0f798eccec39030f8ca759ddbffb626') in 0.046759 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr mesh leave.fbx
+  artifactKey: Guid(f8defa343e39b2545bf3101b50eefa17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr mesh leave.fbx using Guid(f8defa343e39b2545bf3101b50eefa17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f256fcf387215c7059c5eb98ced74cca') in 0.029358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ww smoke first color.png
+  artifactKey: Guid(6386773108360044293d98e435fb73bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ww smoke first color.png using Guid(6386773108360044293d98e435fb73bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f973bf71f0f0149a2158e0cb78d1ff43') in 0.028019 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ww smoke bright hdr ab.mat
+  artifactKey: Guid(94e7635f3a92a7245abb4b56e5834fa2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ww smoke bright hdr ab.mat using Guid(94e7635f3a92a7245abb4b56e5834fa2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2f7a5807938981a62a1ef0bc61e899c8') in 0.046187 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ww smoke glow.png
+  artifactKey: Guid(74188c415cb23a7419698120d00ae9cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ww smoke glow.png using Guid(74188c415cb23a7419698120d00ae9cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0aadc77a4b58deae067946373650db65') in 0.031673 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr ring mesh local space.asset
+  artifactKey: Guid(b0456bb37d6ff3b4e956cba074fb9253) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr ring mesh local space.asset using Guid(b0456bb37d6ff3b4e956cba074fb9253) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '90fbeab74a1becbd452ce285c418c42d') in 0.013025 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr electric_arc_circle.fbx
+  artifactKey: Guid(b10f0a773262b9c478542ff2d1a04863) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr electric_arc_circle.fbx using Guid(b10f0a773262b9c478542ff2d1a04863) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '44346174477599f92dc2f05e850fff86') in 0.021101 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr mesh foam.fbx
+  artifactKey: Guid(efd0ff1193063db498e9ddb30e96e4ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr mesh foam.fbx using Guid(efd0ff1193063db498e9ddb30e96e4ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9ad2431c4e0076663b0877ce05be9275') in 0.019684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ring ripple arc dissolve.png
+  artifactKey: Guid(e09598ca19faace49acaf7b6bfb5516c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ring ripple arc dissolve.png using Guid(e09598ca19faace49acaf7b6bfb5516c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd6b3006ebffc2e631912ecb5a068366d') in 0.027862 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 mult blurred.mat
+  artifactKey: Guid(b51eed9cffd8c854ea795d648e28601e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 mult blurred.mat using Guid(b51eed9cffd8c854ea795d648e28601e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fe3b2b547be5690d5f929ae7a6cf0438') in 0.060184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/Textures/CFX3_T_Skull.png
+  artifactKey: Guid(6c1c207199cd6d044858440b08f67726) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/Textures/CFX3_T_Skull.png using Guid(6c1c207199cd6d044858440b08f67726) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '925ace96052b2f867c6527bac69ff7b8') in 0.031521 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Misc/cfxr ParticleFont WashYourHand.asset
+  artifactKey: Guid(248c4661420fe3d48b7f14d4c8afe6ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Misc/cfxr ParticleFont WashYourHand.asset using Guid(248c4661420fe3d48b7f14d4c8afe6ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '50f468ffd2d4bcdb6117c621832abf5c') in 0.030738 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 69
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/CFXR3 Fire Explosion B.prefab
+  artifactKey: Guid(99bc28c0d45f51c4fbac01080b73edc7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/CFXR3 Fire Explosion B.prefab using Guid(99bc28c0d45f51c4fbac01080b73edc7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ae54dae15a18f95858ff033afccbea3d') in 0.130097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/CFXR3 Hit Fire B (Air).prefab
+  artifactKey: Guid(3ed0d324122d7b24eaec75c55c74aafc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/CFXR3 Hit Fire B (Air).prefab using Guid(3ed0d324122d7b24eaec75c55c74aafc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '818a6f88865ba61451f321ba328cf077') in 0.072518 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Shaders/CFXR Particle Glow.cfxrshader
+  artifactKey: Guid(67dfcda17071f4a41be79c4049965e67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Shaders/CFXR Particle Glow.cfxrshader using Guid(67dfcda17071f4a41be79c4049965e67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f7b58d1c72a5306e8735108530358bb9') in 0.022588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR_Effect.cs
+  artifactKey: Guid(9205bc1bbacc90040a998067b5643d16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR_Effect.cs using Guid(9205bc1bbacc90040a998067b5643d16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd6f72131d95254c31857d721b0560595') in 0.008177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR_EmissionBySurface.cs
+  artifactKey: Guid(403cb51292a8b3c4c870cccfc0e68659) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR_EmissionBySurface.cs using Guid(403cb51292a8b3c4c870cccfc0e68659) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '94702abe534c8c4a8f6bc3f1b7d66c30') in 0.008641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef
+  artifactKey: Guid(785156d0baf9e564e92265c9169511bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR Runtime.asmdef using Guid(785156d0baf9e564e92265c9169511bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bd330f2424f6868c2e16917a4648724a') in 0.008541 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/CFXR4 Firework 1 Cyan-Purple (HDR).prefab
+  artifactKey: Guid(ae07f2a45f14a82428409cfe410e6002) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/CFXR4 Firework 1 Cyan-Purple (HDR).prefab using Guid(ae07f2a45f14a82428409cfe410e6002) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0c06e6cdf9c2f5c35e7c172953ca4cc8') in 0.080202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Shaders/CFXR.cginc
+  artifactKey: Guid(b3dab2eb6bcf5df42a6c45d4638e0f46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Shaders/CFXR.cginc using Guid(b3dab2eb6bcf5df42a6c45d4638e0f46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9c9d35b860d50cb13fac76b16d4d2440') in 0.007838 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/CFXR2 Sparks Rain.prefab
+  artifactKey: Guid(798157bad7358b04499c9d71cd3c0d9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/CFXR2 Sparks Rain.prefab using Guid(798157bad7358b04499c9d71cd3c0d9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '69797300765963f9a7c66dcde86b4574') in 0.084222 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Shaders/CFXR_SETTINGS.cginc
+  artifactKey: Guid(12c0fc6ff46c9b64a99fb4b921970883) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Shaders/CFXR_SETTINGS.cginc using Guid(12c0fc6ff46c9b64a99fb4b921970883) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '16017ef02e25e49d86b36a749177c60c') in 0.010725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Shaders/CFXR Particle Distortion.cfxrshader
+  artifactKey: Guid(304630dc6079b47419e5333f284382fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Shaders/CFXR Particle Distortion.cfxrshader using Guid(304630dc6079b47419e5333f284382fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7e1e17672841b16d4d8db6f79fa57858') in 0.011447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Shaders/CFXR_URP.cginc
+  artifactKey: Guid(3eab241579cd5514388d88f452714385) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Shaders/CFXR_URP.cginc using Guid(3eab241579cd5514388d88f452714385) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ed47351f28dcf4982bc3722bb4b35994') in 0.007966 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/CFXR Fire Breath.prefab
+  artifactKey: Guid(c4ed38c72957f2241ad144a1614956d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/CFXR Fire Breath.prefab using Guid(c4ed38c72957f2241ad144a1614956d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0f452624f1b81d69ca795b90cc111946') in 0.068768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/CFXR _BOING_.prefab
+  artifactKey: Guid(cf378989e15716e40a61692dcd97e628) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/CFXR _BOING_.prefab using Guid(cf378989e15716e40a61692dcd97e628) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a7360ad4a7f93423da8d8e35a8bdf0d3') in 0.090958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 96
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/CFXR4 Bubbles Breath Underwater Loop.prefab
+  artifactKey: Guid(7f906c77905876d488e88e99d13c3d7d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/CFXR4 Bubbles Breath Underwater Loop.prefab using Guid(7f906c77905876d488e88e99d13c3d7d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ae09087158b9b6953bf5c84f3d72df9e') in 0.072653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/CFXR _SLASH_.prefab
+  artifactKey: Guid(019faff12646bd8438ea56e8e7861fd8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/CFXR _SLASH_.prefab using Guid(019faff12646bd8438ea56e8e7861fd8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aed64f01a87c2a6bcde8575a8ea0d4da') in 0.079927 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 100
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR2 Shiny Item (Loop).prefab
+  artifactKey: Guid(e2c1ac940434a5242b54d72b66654687) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR2 Shiny Item (Loop).prefab using Guid(e2c1ac940434a5242b54d72b66654687) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0c76b8fbcde02268c5b6e453e49dd1e2') in 0.070763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Light/CFXR3 Hit Light B (Air).prefab
+  artifactKey: Guid(bbf9e36a48d6c5648a13889afab076fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Light/CFXR3 Hit Light B (Air).prefab using Guid(bbf9e36a48d6c5648a13889afab076fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '934b4a99e9579775422d849f10494390') in 0.067790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR3 Hit Misc F Smoke.prefab
+  artifactKey: Guid(9fe8f8b3288e45a44af36ff8aa04486e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR3 Hit Misc F Smoke.prefab using Guid(9fe8f8b3288e45a44af36ff8aa04486e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'de59e4fcd0e27c0f9c795c25bf061945') in 0.066572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/_Make your own text effect.txt
+  artifactKey: Guid(e9bb2cf0ab7316d4c9b6ed6f86cf8341) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/_Make your own text effect.txt using Guid(e9bb2cf0ab7316d4c9b6ed6f86cf8341) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0a57ed4b6b896675da6e6a6a5ecd5948') in 0.010579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn Ground H.png
+  artifactKey: Guid(338685d7a91449f45a6a95b3756c4750) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn Ground H.png using Guid(338685d7a91449f45a6a95b3756c4750) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8c579727073948cc04a706f2c9c255af') in 0.041173 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef
+  artifactKey: Guid(fb9ff7b799c73af479a69874581439d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef using Guid(fb9ff7b799c73af479a69874581439d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '719c460809b2efe89748e8657e99e813') in 0.008195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn Bloom.png
+  artifactKey: Guid(07caf3d1930bab14aa8f6dcdf2db871a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn Bloom.png using Guid(07caf3d1930bab14aa8f6dcdf2db871a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6d4a6e04fd4de77e923e5542120dfe22') in 0.057260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/CFXR4 _FROZEN_.prefab
+  artifactKey: Guid(3b7e489cc13dac144b93495cf5b38349) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/CFXR4 _FROZEN_.prefab using Guid(3b7e489cc13dac144b93495cf5b38349) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8e155e4993edeef504ddd686676456ab') in 0.078634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 100
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/CFXR Impact Glowing HDR (Blue).prefab
+  artifactKey: Guid(6398d43fe79ea0140913dc5530c646af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/CFXR Impact Glowing HDR (Blue).prefab using Guid(6398d43fe79ea0140913dc5530c646af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '56140c760cd9c205986b15ec7b7d784e') in 0.075207 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Kino Bloom License.txt
+  artifactKey: Guid(fd252a094a85ae0499ad570e08e4652f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Kino Bloom License.txt using Guid(fd252a094a85ae0499ad570e08e4652f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eb424b4c26500d8a7a594191be3a04e1') in 0.006226 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn Bloom H.png
+  artifactKey: Guid(32700198561e47044863cf80370fe63a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/UI/CFXR Demo Btn Bloom H.png using Guid(32700198561e47044863cf80370fe63a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b58c4c2180122338e402dec8c55f415d') in 0.030914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Magic Misc/CFXR4 Bouncing Glows Bubble (Blue Purple).prefab
+  artifactKey: Guid(f6fd568b816c64943a44efc3add3a881) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Magic Misc/CFXR4 Bouncing Glows Bubble (Blue Purple).prefab using Guid(f6fd568b816c64943a44efc3add3a881) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '47c66f07b842f6ecca4f92ca02fdadc4') in 0.098585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/CFXR2 Ground Hit.prefab
+  artifactKey: Guid(87ee7299dd44ed747af24dbb91bcd33b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/CFXR2 Ground Hit.prefab using Guid(87ee7299dd44ed747af24dbb91bcd33b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9df2a86806dcdec1af0fec0563020c15') in 0.086499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Shader/Bloom.cginc
+  artifactKey: Guid(1b8325918052c4c5492831d116e3ed27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Shader/Bloom.cginc using Guid(1b8325918052c4c5492831d116e3ed27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '081f4c71e98f1eaa0af2a8bbfbdb5bf6') in 0.013821 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Sword Trails/Fire/CFXR4 Sword Trail FIRE (360 Thin Spiral).prefab
+  artifactKey: Guid(b3416c8b2e3c7804b8c061dc4a36fc43) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Sword Trails/Fire/CFXR4 Sword Trail FIRE (360 Thin Spiral).prefab using Guid(b3416c8b2e3c7804b8c061dc4a36fc43) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '17a56c784f80b5504daa4518e9c192bd') in 0.099804 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/BloomGraphDrawer.cs
+  artifactKey: Guid(4afcb2949e7fb42679b587b8848b7e02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/BloomGraphDrawer.cs using Guid(4afcb2949e7fb42679b587b8848b7e02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0e30f423863aca5655450f15bb1fbf76') in 0.009360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Sword Trails/Plain/CFXR4 Sword Hit PLAIN (Cross).prefab
+  artifactKey: Guid(b85d21f3b8fed714bacf0c4fd50fa512) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Sword Trails/Plain/CFXR4 Sword Hit PLAIN (Cross).prefab using Guid(b85d21f3b8fed714bacf0c4fd50fa512) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bd7129ea1aa18a6b0f06ddec5d74bf0a') in 0.068072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Sword Trails/Plain/CFXR4 Sword Trail PLAIN (360 Thin Spiral).prefab
+  artifactKey: Guid(2b987d41506d172419fa18578f6ac380) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Sword Trails/Plain/CFXR4 Sword Trail PLAIN (360 Thin Spiral).prefab using Guid(2b987d41506d172419fa18578f6ac380) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd2a7f8005a46ccf1113ff1f76b4df654') in 0.082957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/CFXR Water Splash (Smaller).prefab
+  artifactKey: Guid(326e86d5729c54e479798cacab220bb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/CFXR Water Splash (Smaller).prefab using Guid(326e86d5729c54e479798cacab220bb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '173ddaf97ea0e88e7e6e78f41edd7d42') in 0.085838 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR2 Cartoon Fight (Loop).prefab
+  artifactKey: Guid(90375796f996bff4cabed66da5e558cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR2 Cartoon Fight (Loop).prefab using Guid(90375796f996bff4cabed66da5e558cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b6ef14bd25227f7bfa8711ff27bb4898') in 0.080016 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/CFXR2 _WHAM_ 3.prefab
+  artifactKey: Guid(1244a9e4f6193654989497ad418a287b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/CFXR2 _WHAM_ 3.prefab using Guid(1244a9e4f6193654989497ad418a287b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7f3eb12c00a9904be8d2f4b6d2910481') in 0.083169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 96
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/Materials/Misc/CFX4_Circle AB.mat
+  artifactKey: Guid(4487b6501f1381549872ae22738916a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/Materials/Misc/CFX4_Circle AB.mat using Guid(4487b6501f1381549872ae22738916a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b5b82065815e924823e6f9761d820e56') in 0.018446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/Textures/CFX4_T_FireSoft RGB.png
+  artifactKey: Guid(4590452e6e05a624c98b4f931f719e56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/Textures/CFX4_T_FireSoft RGB.png using Guid(4590452e6e05a624c98b4f931f719e56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cf311fff08fe9f99c128006a62235fc8') in 0.028407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr debris unlit 3x3.png
+  artifactKey: Guid(ce355ddea16ad0a41abee534af68b82a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr debris unlit 3x3.png using Guid(ce355ddea16ad0a41abee534af68b82a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0a9646d55343a9e094774f02bebae977') in 0.039614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr cloud blur.png
+  artifactKey: Guid(3f4b2ef884de1f64e90da1a73016c1fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr cloud blur.png using Guid(3f4b2ef884de1f64e90da1a73016c1fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a17e431480167f4f7c180b18c708892f') in 0.033102 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme crisp mid fine hdr ab.mat
+  artifactKey: Guid(d8a21f1c09eaf4d40a9e977784629cfa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme crisp mid fine hdr ab.mat using Guid(d8a21f1c09eaf4d40a9e977784629cfa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a257efd8bef99bc160a386240e24a924') in 0.058593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr heart break dissolve.png
+  artifactKey: Guid(f5a348224aafbd442b8932a3fac961f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr heart break dissolve.png using Guid(f5a348224aafbd442b8932a3fac961f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '69c91335a9c5bf9154ee03560de4ac83') in 0.033110 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme blur mid hdr ab.mat
+  artifactKey: Guid(82d1a4b93a158084aa5868eaed32cc23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme blur mid hdr ab.mat using Guid(82d1a4b93a158084aa5868eaed32cc23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2c3ae86389e88c4c7f9fb156b59d0051') in 0.023022 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/Textures/CFX2_T_HeartOutline.png
+  artifactKey: Guid(03e95ca11ee78cd4482680e2c4ec46f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/Textures/CFX2_T_HeartOutline.png using Guid(03e95ca11ee78cd4482680e2c4ec46f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bc5d2f1ce4b1c9a2f7aa672594fb1968') in 0.029420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr skull 2 dissolve.png
+  artifactKey: Guid(2fc2915dbd02ea3469862ee7b98ad954) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr skull 2 dissolve.png using Guid(2fc2915dbd02ea3469862ee7b98ad954) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ac178699836963153e1483b3f9b58a2f') in 0.031633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr petal normal.png
+  artifactKey: Guid(e53b5c2d791d1f3479923823ece5e628) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr petal normal.png using Guid(e53b5c2d791d1f3479923823ece5e628) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8a25f2f9db8b42f3d0bb72a069da9c63') in 0.042118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/Materials/Symbols/CFX2_Star Outline Add.mat
+  artifactKey: Guid(b125e76401a407444b8a9c9491a660eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/Materials/Symbols/CFX2_Star Outline Add.mat using Guid(b125e76401a407444b8a9c9491a660eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '92901efe900ec39fa7acdea4a6143e81') in 0.016001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme blur.png
+  artifactKey: Guid(f5ec3d9d039e8204d8b72ffc3ba810a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme blur.png using Guid(f5ec3d9d039e8204d8b72ffc3ba810a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e53a2160d324476d7de4a0e3a8f58925') in 0.031145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000621 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/Materials/Animated/CFX_Anim_Poof_Add.mat
+  artifactKey: Guid(e3d4119c3e4597d4b90fc27f1419ca4b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/Materials/Animated/CFX_Anim_Poof_Add.mat using Guid(e3d4119c3e4597d4b90fc27f1419ca4b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ce7ed221bf48760e25d4e5b469952c98') in 0.012829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX3 Prefabs/Environment/CFX3_Snow_Dense.prefab
+  artifactKey: Guid(de07bf378e7247444a0715ad2ff509e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX3 Prefabs/Environment/CFX3_Snow_Dense.prefab using Guid(de07bf378e7247444a0715ad2ff509e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c1d4cc61a0c9862895b33c3fe3ac157d') in 0.088482 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smiley frown.png
+  artifactKey: Guid(2132e90e9604772419962b40957b517f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smiley frown.png using Guid(2132e90e9604772419962b40957b517f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4b4fca275cb8548f2f06b812574ba49a') in 0.032149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/Materials/Misc/CFX_Tornado.mat
+  artifactKey: Guid(d31773cd67ef98d44a63900e5bf368e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/Materials/Misc/CFX_Tornado.mat using Guid(d31773cd67ef98d44a63900e5bf368e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '12dae14039cb31757525476e86882210') in 0.013120 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Misc/CFX_MagicPoof.prefab
+  artifactKey: Guid(a40b64bf23366dc42a892af2c6ff6140) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Misc/CFX_MagicPoof.prefab using Guid(a40b64bf23366dc42a892af2c6ff6140) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd8740a1a99f9f8f2b4651f0a08dbeaba') in 0.078741 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 47
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr spikes impact add.mat
+  artifactKey: Guid(04d0f020002082e4db140d8c0954e83e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr spikes impact add.mat using Guid(04d0f020002082e4db140d8c0954e83e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'adb3669cd3f5bab191404f29d40c61da') in 0.063673 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: La operación de E/S se anuló por una salida de subproceso o por una solicitud de aplicación.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
